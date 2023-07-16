@@ -3,7 +3,7 @@ Add replacer to your roblox game, make your life easier!
 
 * **To add Replacer to your game there is a few things you need to do:**
 
-1. buy & install the plugin link: N/A
+1. buy & install the plugin link: [CLICK HERE!](https://www.roblox.com/library/14085310376/Replacer)
 2. add the module to your game by clicking on: PLUGINS/REPLACER
 3. now you have the Replacer module in your game!
 
