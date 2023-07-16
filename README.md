@@ -4,7 +4,7 @@ Add replacer to your roblox game, make your life easier!
 * **To add Replacer to your game there is a few things you need to do:**
 
 1. buy & install the plugin link: N/A
-2. add the module to your game by clicking on: PLUGINS/REPLACER and then you need to move replacer to replicatedstorange
+2. add the module to your game by clicking on: PLUGINS/REPLACER
 3. now you have the Replacer module in your game!
 
 * **Now when you have the module on your game you can start to learn how to use it:**
