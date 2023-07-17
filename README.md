@@ -71,6 +71,40 @@ rep:Set("name", "new output")
 print(rep:Txt("the replacement: %name%"))
 ```
 
+now there is "the less important functions".
+
+to remove something that you added you can do:
+
+```lua
+rep:Remove(name)
+```
+
+you can also get all the replacements, its return it:
+
+```lua
+print(rep:GetAll())
+```
+
+you can clear every replacement like this:
+```lua
+rep:Clear()
+```
+
+and if you want to get get true if there is replacement like this or false if there is no replacement like this you can use this:
+
+```lua
+print(rep:Has(name))
+```
+
+and you can also get the count of how much replacement you have in number:
+
+```lua
+print(rep:Count())
+```
+
+
+
+
 
 Except that you can create new replacements there is pre builded replacements.
 
@@ -90,6 +124,8 @@ here is all the replacements that pre builded.
 
 %plrs% - the number of players in the server
 
+%plr_country% - the player country
+
 
 
 **server**:
@@ -108,7 +144,33 @@ here is all the replacements that pre builded.
 
 %game_id% - the game id
 
-more will added soon!
+%game_creator_id% - the game creator id
+
+%game_creator_name% - the game creator name
+
+
+
+**time**:
+
+%time% - the date and the time
+
+%time_date% - the date (mm/dd/yyyy)
+
+%time_hour% - the time (in hours minutes and seconds)
+
+
+
+**random**:
+
+%random% - random numbers
+
+%random_numbers% - random numbers
+
+%random_letters% - random letters
+
+%random_word% - random word generator
+
+
 
 
 **So this is all you need to know about Replacer, more updates will added soon!**
