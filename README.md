@@ -5,6 +5,7 @@ Add replacer to your roblox game, make your life easier!
 # Last Changelog (v1.1.1)
 * Added %random_joke% with more then 700 jokes!
 * Added the option to run Replacer via Server Script!
+* and more...
 
 
 # Learn How To Use
