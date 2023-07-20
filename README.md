@@ -50,13 +50,26 @@ in here i changed the name replacement output to "new output" and now everytime 
 
 the last function for now is txt, what this function do is doing the same get do but very more easy, because its inside text:
 
+in localscript:
 ```lua
 print(rep:Txt("the replacement: %name%"))
 ```
 
+in serverscript:
+```lua
+local rep = require(game.ReplicatedStorage.Replacer)
+local plrs = game.Players
+
+
+plrs.PlayerAdded:Connect(function(plr)	
+	print(rep:Txt("%name%", plr))
+end)
+```
+
+
 in here i was using the txt function inside print for it print the result, and what it doing is get the replacement by %% and you can add another text to it.
 
-Overall it looks like this:
+Overall it looks like this (for example i do in localscript):
 
 ```lua
 local rep = require(game.ReplicatedStorage.Replacer)
