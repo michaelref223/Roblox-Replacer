@@ -126,6 +126,10 @@ here is all the replacements that pre builded.
 
 %plr_country% - the player country
 
+%plr_age% - how much days left from the day that the player joined roblox
+
+%plr_joined_date% - the player join date when he joined to roblox
+
 
 
 **server**:
