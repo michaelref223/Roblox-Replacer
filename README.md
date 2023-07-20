@@ -14,21 +14,8 @@ Add replacer to your roblox game, make your life easier!
 first (basic) you need to create localscript, or a script.
 now you need to get the module script from replicatedstorange by making the code:
 
-in localscript:
 ```lua
 local rep = require(game.ReplicatedStorage.Replacer)
-```
-
-in serverscript:
-
-```lua
-local rep = require(game.ReplicatedStorage.Replacer)
-local plrs = game.Players
-
-
-plrs.PlayerAdded:Connect(function(plr)
-	print(rep:Txt("%random_joke%", plr))
-end)
 ```
 
 now you can use the functions.
