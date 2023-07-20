@@ -1,6 +1,14 @@
 # Roblox-Replacer
 Add replacer to your roblox game, make your life easier!
 
+
+# Last Changelog (v1.1.1)
+* Added %random_joke% with more then 700 jokes!
+* Added the option to run Replacer via Server Script!
+
+
+# Learn How To Use
+
 * **To add Replacer to your game there is a few things you need to do:**
 
 1. buy & install the plugin link: [CLICK HERE!](https://www.roblox.com/library/14085310376/Replacer)
@@ -185,7 +193,9 @@ here is all the replacements that pre builded.
 
 %random_letters% - random letters
 
-%random_word% - random word generator
+%random_word% - random word generator 50000+ words
+
+%random_joke% - random joke generator 700+ jokes
 
 
 
