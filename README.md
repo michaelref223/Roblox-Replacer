@@ -62,7 +62,7 @@ local plrs = game.Players
 
 
 plrs.PlayerAdded:Connect(function(plr)	
-	print(rep:Txt("%name%", plr))
+	print(rep:Txt("the replacement: %name%", plr))
 end)
 ```
 
